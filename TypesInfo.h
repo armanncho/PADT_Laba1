@@ -16,7 +16,7 @@ typedef struct type_info {
     SetValuePtr set_value;
 } Type_info;
 
-Type_info* getDoubleType(void);
-Type_info* getComplexType(void);
+const Type_info* getDoubleType(void);
+const Type_info* getComplexType(void);
 
 #endif //LAB1_TYPESINFO_H
