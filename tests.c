@@ -1,10 +1,10 @@
 #include <assert.h>
 #include <stdio.h>
 #include <math.h>
-#include "dynamicArray.h"
+#include "DynamicArray.h"
 #include "ArrayAlgorithms.h"
-#include "doubleType.h"
-#include "complexType.h"
+#include "DoubleType.h"
+#include "ComplexType.h"
 
 // Структура для удобного тестирования комплексных чисел
 typedef struct {
